@@ -1,4 +1,4 @@
-let CajaDeZea = 'Woddy'
-let CajaDeAnthonella = 'Boos'
+let zeaBox = 'Woddy'
+let anthonellaBox = 'Boos'
 
-console.log(CajaDeZea, CajaDeAnthonella)
+console.log(zeaBox, anthonellaBox)
