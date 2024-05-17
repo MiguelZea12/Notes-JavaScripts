@@ -55,7 +55,7 @@ const otherCertificated = {
     cursoPoo : 'https://platzi.com/p/miguel_alejandro2022/curso/1474-oop/diploma/detalle/'
 }
 
-
+// Estado civil.
 const compromiso = 'Sheyla Anthonella Cedeño Cedeño'
 const statusCivil = ['Casado', 'soltero']
 
