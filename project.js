@@ -55,6 +55,10 @@ const otherCertificated = {
     cursoPoo : 'https://platzi.com/p/miguel_alejandro2022/curso/1474-oop/diploma/detalle/'
 }
 
+
+const compromiso = 'Sheyla Anthonella Cedeño Cedeño'
+const statusCivil = ['Casado', 'soltero']
+
 // Una descripcion breve mia.
 
 const description = `Hola yo soy ${person.names} ${person.lastname}, y tengo ${person.age} años de edad, soy una persona
@@ -67,6 +71,11 @@ ${knowledge[5]}, ${knowledge[6]}. Sin olvidar que tengo conocimiento de ${knowle
 const social_networks = `GitHub : ${networks.gitHub}
 LinkedIn : ${networks.LinkedIn}`
 
+// Estado Civil.
+const statusC = `Estado : ${statusCivil[0]}.
+Nombre de la Esposa/o : ${compromiso}
+`
+
 // Carreras terminadas.
 const careers_description = `Scrum Master : ${title.ScrumMaster}`
 
@@ -78,18 +87,18 @@ Curso de Historia de Usuario : ${certificated_scrum_master.cursoHistoriaDeUsuari
 Curso Profesional de Scrum : ${certificated_scrum_master.cursoProfesionalScrum}.
 Curso de Scrum Master : ${certificated_scrum_master.cursoScrumMaster}.
 
-Data Engineer(En proceso...).
+DATA ENGINEER(En proceso...).
 Curso de Fundamentos de Base de Datos : ${certificated_DataEnginner.cursoFundamentosBaseDatos}.
 Curso de Fundamentos de Ingenieria de Datos : ${certificated_DataEnginner.cursoFundamentosIngDatos}.
 Curso de Fundamentos de Python : ${certificated_DataEnginner.cursoFundamentosPython}.
 Curso de Python: Comprehensions, Funciones y Manejos de errores : ${certificated_DataEnginner.cursoPythonComprehensions}.
 Curso de Principios de Visualizacion de Datos para Business Intelligence : ${certificated_DataEnginner.cursoPrincipiosVisualizacion}.
 
-Data Analyst(En proceso...).
+DATA ANALYST(En proceso...).
 Curso de Principios de Visualizacion de Datos para Business Intelligence : ${certificated_DataAnality.cursoPrincipiosVisualizacion}.
 Curso de Excel Basico : ${certificated_DataAnality.cursoExcelBasico}.
 
-Other Certificated.
+Other CERTIFICATED.
 Curso Basico De Python : ${otherCertificated.cursoBasicoPython}.
 Curso Basico De C++ : ${otherCertificated.cursoCPlusPlus}.
 Curso de Configuración de Entorno de Desarrollo en Windows : ${otherCertificated.cursoEntornoDesarrollo}.
@@ -102,6 +111,11 @@ console.log(description.trim())
 console.log('-------------------------------------------')
 console.log('--------------REDES SOCIALES---------------')
 console.log(social_networks)
+
+
+console.log('-------------------------------------------')
+console.log('--------------ESTADO CIVIL.---------------')
+console.log(statusC)
 
 console.log('-------------------------------------------')
 console.log('--------------CARRERAS COMPLETAS---------------')
