@@ -61,7 +61,7 @@ const statusCivil = ['Casado', 'soltero']
 
 // Una descripcion breve mia.
 
-const description = `Hola yo soy ${person.names} ${person.lastname}, y tengo ${person.age} años de edad, soy una persona
+const description = `Hola yo soy ${person.names} ${person.lastnames}, y tengo ${person.age} años de edad, soy una persona
 estudiosa y mis hobbies favoritos son: ${hobbies.join(', ')}. 
 Ademas tengo conocimiento en lenguajes como ${knowledge[0]}, con Framework ${knowledge[1]} y ${knowledge[2]}. 
 Por otro lado, estoy adquiriendo conocimientos de ${knowledge[3]} con sus Frameworks como ${knowledge[4]}, 
