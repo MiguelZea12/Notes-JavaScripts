@@ -58,7 +58,7 @@ const otherCertificated = {
 // Una descripcion breve mia.
 
 const description = `Hola yo soy ${person.names} ${person.lastname}, y tengo ${person.age} años de edad, soy una persona
-estudiosa y mis hobbies favoritos son: ${hobbies[0]}, ${hobbies[1]}, ${hobbies[2]}, ${hobbies[3]}. 
+estudiosa y mis hobbies favoritos son: ${hobbies.join(', ')}. 
 Ademas tengo conocimiento en lenguajes como ${knowledge[0]}, con Framework ${knowledge[1]} y ${knowledge[2]}. 
 Por otro lado, estoy adquiriendo conocimientos de ${knowledge[3]} con sus Frameworks como ${knowledge[4]}, 
 ${knowledge[5]}, ${knowledge[6]}. Sin olvidar que tengo conocimiento de ${knowledge[7]} y certificado como ${knowledge[8]}.`
