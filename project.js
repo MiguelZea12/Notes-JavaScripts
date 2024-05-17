@@ -10,7 +10,7 @@ const person = {
 const hobbies = ['Futbol', 'Volleyball', 'Estudiar Programacion', 'Escuchar Musica']
 
 // Mis conocimientos.
-const conocimiento = ['Python avanzado',  'Flask', 'django', 'JavaScripts', 'Node.js', 'Nest.js', 'Expresss', 'Gestion de proyectos', 'Scrum Master',]
+const knowledge = ['Python avanzado',  'Flask', 'django', 'JavaScripts', 'Node.js', 'Nest.js', 'Expresss', 'Gestion de proyectos', 'Scrum Master',]
 
 // Titulos.
 const title = {
@@ -18,7 +18,7 @@ const title = {
 }
 
 //Redes sociales.
-const redesSociales = {
+const networks = {
     gitHub : 'https://github.com/MiguelZea12',
     LinkedIn : 'https://www.linkedin.com/in/miguel-zea-39828b252/'
 }
@@ -57,18 +57,18 @@ const otherCertificated = {
 
 // Una descripcion breve mia.
 
-const description = `Hola yo soy ${person.names} ${person.lastname}, y tengo ${person.age} años de edad, soy una persona muy extrovertida
+const description = `Hola yo soy ${person.names} ${person.lastname}, y tengo ${person.age} años de edad, soy una persona
 estudiosa y mis hobbies favoritos son: ${hobbies[0]}, ${hobbies[1]}, ${hobbies[2]}, ${hobbies[3]}. 
-Ademas tengo conocimiento en lenguajes como ${conocimiento[0]}, con Framework ${conocimiento[1]} y ${conocimiento[2]}. 
-Por otro lado, estoy adquiriendo conocimientos de ${conocimiento[3]} con sus Frameworks como ${conocimiento[4]}, 
-${conocimiento[5]}, ${conocimiento[6]}. Sin olvidar que tengo conocimiento de ${conocimiento[7]} y certificado como ${conocimiento[8]}.`
+Ademas tengo conocimiento en lenguajes como ${knowledge[0]}, con Framework ${knowledge[1]} y ${knowledge[2]}. 
+Por otro lado, estoy adquiriendo conocimientos de ${knowledge[3]} con sus Frameworks como ${knowledge[4]}, 
+${knowledge[5]}, ${knowledge[6]}. Sin olvidar que tengo conocimiento de ${knowledge[7]} y certificado como ${knowledge[8]}.`
 
 // Mis redes sociales.
-const redes = `GitHub : ${redesSociales.gitHub}
-LinkedIn : ${redesSociales.LinkedIn}`
+const social_networks = `GitHub : ${networks.gitHub}
+LinkedIn : ${networks.LinkedIn}`
 
 // Carreras terminadas.
-const carreras_Description = `Scrum Master : ${title.ScrumMaster}`
+const careers_description = `Scrum Master : ${title.ScrumMaster}`
 
 // Mis certificados y licencias.
 const certification_description = `SCRUM MASTER.
@@ -101,11 +101,11 @@ console.log(description.trim())
 
 console.log('-------------------------------------------')
 console.log('--------------REDES SOCIALES---------------')
-console.log(redes)
+console.log(social_networks)
 
 console.log('-------------------------------------------')
 console.log('--------------CARRERAS COMPLETAS---------------')
-console.log(carreras_Description)
+console.log(careers_description)
 
 console.log('-------------------------------------------')
 console.log('--------------CERTIFICADOS Y LICENCIAS.---------------')
