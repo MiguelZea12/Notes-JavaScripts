@@ -9,7 +9,7 @@ const home = {
 
 home.menssegeDog()
 
-// Enlace Explicita.
+// Enlace Explicita.    
 
 function dog (addres, owner) {
     console.log(`Hola soy ${this.names}, mi dueño es ${owner} y es super genial, ademas mi direccion de la casa es por la ${addres}`)
