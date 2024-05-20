@@ -1,18 +1,20 @@
+// Funcion donde se selecciona el equipo aleatoriamente.
 function SecretWord() {
     let equipment = ['barcelona', 'real madrid', 'milan', 'psg'];
     const random = Math.floor(Math.random() * equipment.length);
     const secretWord = equipment[random];
     return secretWord;
-}
+}   
 
-
+// Funcion del juego principal.
 function Guess(secretWord) {
     let Attempts = 3;
     alert(`BIENVENIDO AL JUEGO DE ADIVINAR PALABRAS.
     VAS A TENER 3 INTENTOS PARA ADIVINAR
     UNA DE LAS PISTAS ES QUE SON EQUIPOS DE FUTBOL.
     Y OTRA PISTA ES QUE TU EQUIPO COMIENZA CON LA LETRA: ${secretWord[0]}`);
-
+    
+// Aqui se hara un bucle hasta que se cumpla con la condicion de que adivine el equipo o se le acabe los intentos
     while(Attempts > 0) {
         let assumption = prompt('Adivina el equipo: ');
         if (assumption.toLocaleLowerCase() === secretWord) {
