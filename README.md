@@ -89,7 +89,6 @@ node <el_nombre_del archivo_de_la_unidad>
 
 
 # Abstract
-## Backend of the linkage project
 
 The purpose behind Notes-Javascript is to provide students and developers with a comprehensive and accessible reference to get familiar with the JavaScript programming language. The separation into units allows a logical progression from the simplest to the most complex concepts, facilitating gradual learning and assimilation of information.
 
