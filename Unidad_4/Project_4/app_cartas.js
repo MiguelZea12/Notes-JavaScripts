@@ -18,7 +18,7 @@ function stirCard() {
         const random = Math.floor(Math.random() * (i + 1));
         [deck[i], deck[random]] = [deck[random], deck[i]];
     }
-    console.log('Las cartas han sido revaladas:', deck);
+    console.log('Las cartas han sido mezcladas:', deck);
 }
 
 // Funcion para repartir las cartas con los usuarios.
