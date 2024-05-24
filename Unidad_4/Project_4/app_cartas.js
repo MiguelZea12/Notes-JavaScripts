@@ -12,7 +12,7 @@ function quantityLetter() {
     return parseInt(prompt('¿Cuántos números de cartas desea repartir? El rango es de 5 a 7: '));
 }
 
-// Funcion para revoler las cartas.
+// Funcion para revolver las cartas.
 function stirCard() {
     for (let i = deck.length - 1; i > 0; i--) {
         const random = Math.floor(Math.random() * (i + 1));
