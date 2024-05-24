@@ -146,7 +146,7 @@ The projects included not only illustrate the theoretical concepts of JavaScript
 ### Unit 5 (In progress...)
 ### Unit 6 (In progress...)
 ### Unit 7 (In progress...)
-###Unit 8 (In progress...)
+### Unit 8 (In progress...)
 ### Requirements for usability:
 - Code editor. Preferably Visual Studio Code.
 - NodeJS installation.
