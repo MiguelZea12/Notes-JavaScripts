@@ -1,11 +1,15 @@
+// Ejercicio: Hacer una playlist con el metodo shift() yy unshift().
+
 let listMusic = ['Toy en el mic', 'La receta', 'Mientes'];
 
-function Peticiones() {
+// Funcion para la opcion elegida por el usuario
+function Requests() {
     alert(`Estas son tus opciones: add, remove, all y exit.`);
     const music = prompt('Ingresa la opción que deseas ejecutar: ').toLocaleLowerCase();
     return music;
 }
 
+// Funcion para añadir una musica al Playlist
 function add(music) {
     const addMusic = 'add';
 
@@ -20,6 +24,7 @@ function add(music) {
     }
 }
 
+// Funcion para eliminar la primera musica del Playlist
 function remove(music) {
     const removeMusic = 'remove';
 
@@ -33,6 +38,7 @@ function remove(music) {
     }
 }
 
+// Funcion para visualizar todas las musicas del PlayList.
 function ViewAllList(music){
     const viewAllList = 'all';
 
@@ -41,13 +47,15 @@ function ViewAllList(music){
     };
 }
 
+// Funcion para salir de la app.
 function exit(music) {
     const exitCommand = 'exit';
     return music === exitCommand;
 }
 
+// Loop para la funcionalidad de la app hasta que se seleccione EXIT.
 while (true) {
-    const music = Peticiones();
+    const music = Requests();
     if (exit(music)) {
         alert('¡Gracias por usar la aplicación! Hasta luego.');
         break;
