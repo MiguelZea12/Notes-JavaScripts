@@ -4,15 +4,66 @@ El propósito detrás de Notes-Javascript es proporcionar a los estudiantes y de
 
 Los proyectos incluidos no solo ilustran los conceptos teóricos de JavaScript, sino que también brindan la oportunidad de aplicar esos conocimientos en situaciones prácticas del mundo real. Además, los ejercicios ofrecen la posibilidad de practicar y consolidar la comprensión de los temas tratados en cada unidad.
 
+## Contenido
+### Unidad 1.
 
-### Requisitos para la usabilidad:
+- Variable.
+- Mutabilidad.
+- Paso por valor.
+- Creacion de strings.
+- Manipulacion de Strings.
+- Creacion de numeros.
+- Creacion de booleanos.
+- Null, undefined, symbols, bigint.
+- Conversion de tipos.
+- Proyecto Biografia propia.
+
+### Unidad 2. 
+- Funciones.
+- Funciones vs Metodos.
+- Funciones puras y impuras.
+. Indicador this.
+- Metodos bind, call, apply.
+- Arrow Fuction (Funcion flecha).
+- Funciones constructoras.
+- Proyecto Biografia de personas.
+### Unidad 3.
+- Operadores de comparacion.
+- Operadores logicos.
+- Operador if.
+- Condicional Terciaria.
+- Switch.
+- For.
+- ForEach.
+- For of.
+- For in.
+- While.
+- Do while.
+- Proyecto Adivina el numero.
+- Proyecto Adivina el equipo.
+
+### Unidad 4.
+- Arrays.
+- Metodos push y pop.
+- Metodos shift y unshift.
+- Metodos slice y reverse.
+- Ejercicio de Juego de cartas.
+- Ejercicio de Playlist.
+- Ejercicio de Stack Book
+
+### Unidad 5 (En proceso...)
+### Unidad 6 (En proceso...)
+### Unidad 7 (En proceso...)
+### Unidad 8 (En proceso...)
+
+## Requisitos para la usabilidad:
 - Editor de codigo. De preferencia Visual Studio Code.
 - Instalacion de NodeJS.
 ```bash
 https://nodejs.org/en/download/package-manager/current
 ```
 - Intalacion de la extension de Visual: Live Server.
-### Comando para inicializar un archivo:
+## Comando para inicializar un archivo:
 ```bash
 node <el_nombre_del archivo>
 ```
@@ -44,6 +95,58 @@ The purpose behind Notes-Javascript is to provide students and developers with a
 
 The projects included not only illustrate the theoretical concepts of JavaScript, but also provide the opportunity to apply that knowledge in practical, real-world situations. In addition, the exercises offer the possibility of practicing and consolidating the understanding of the topics covered in each unit.
 
+## Content
+
+### Unit 1.
+- Variables.
+- Mutability.
+- Pass by value.
+- String creation.
+- String manipulation.
+- Number creation.
+- Boolean creation.
+- Null, undefined, symbols, bigint.
+- Type conversion.
+- Personal Biography Project.
+
+### Unit 2.
+- Functions.
+- Functions vs Methods.
+- Pure and impure functions.
+- This indicator.
+- Bind, call, apply methods.
+- Arrow Function.
+- Constructor functions.
+- People Biography Project.
+
+### Unit 3.
+- Comparison operators.
+- Logical operators.
+- If statement.
+- Ternary conditional.
+- Switch.
+- For loop.
+- ForEach.
+- For of.
+- For in.
+- While loop.
+- Do while loop.
+- Guess the Number Project.
+- Guess the Team Project.
+
+### Unit 4.
+- Arrays.
+- Push and pop methods.
+- Shift and unshift methods.
+- Slice and reverse methods.
+- Card Game Exercise.
+- Playlist Exercise.
+- Stack Book Exercise.
+
+### Unit 5 (In progress...)
+### Unit 6 (In progress...)
+### Unit 7 (In progress...)
+###Unit 8 (In progress...)
 ### Requirements for usability:
 - Code editor. Preferably Visual Studio Code.
 - NodeJS installation.
