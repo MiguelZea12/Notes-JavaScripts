@@ -51,8 +51,22 @@ Los proyectos incluidos no solo ilustran los conceptos teóricos de JavaScript, 
 - Ejercicio de Playlist.
 - Ejercicio de Stack Book
 
-### Unidad 5 (En proceso...)
-### Unidad 6 (En proceso...)
+### Unidad 5.
+- Map.
+- filter y reduce.
+- find y findindex.
+- Ejercicio de conversion.
+- Ejercicio de sacar promedio de calificaciones.
+- Ejercicio de ticket ganador.
+- Ejercicio de analisis de transacciones.
+- Ejercicio de suma total.
+### Unidad 6.
+- Concat, spread operation y join.
+- Every y some.
+- Include, indexOF, lastIndexOf.
+- Slice.
+- Spread operation a profundidad.
+- Ejercicio de Encontrar Índices de Subcadena.
 ### Unidad 7 (En proceso...)
 ### Unidad 8 (En proceso...)
 
@@ -142,7 +156,8 @@ The projects included not only illustrate the theoretical concepts of JavaScript
 - Playlist Exercise.
 - Stack Book Exercise.
 
-### Unit 5 (In progress...)
+### Unit 5.
+
 ### Unit 6 (In progress...)
 ### Unit 7 (In progress...)
 ### Unit 8 (In progress...)
