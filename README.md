@@ -67,8 +67,14 @@ Los proyectos incluidos no solo ilustran los conceptos teóricos de JavaScript, 
 - Slice.
 - Spread operation a profundidad.
 - Ejercicio de Encontrar Índices de Subcadena.
-### Unidad 7 (En proceso...)
-### Unidad 8 (En proceso...)
+### Unidad 7 .
+- Arrays bidimensional.
+- Proyecto equipo ganador.
+### Unidad 8.
+- Clases.
+- herencias.
+- Objeto.
+- Proyecto red social.
 
 ## Requisitos para la usabilidad:
 - Editor de codigo. De preferencia Visual Studio Code.
@@ -157,10 +163,30 @@ The projects included not only illustrate the theoretical concepts of JavaScript
 - Stack Book Exercise.
 
 ### Unit 5.
+-Map.
+- filter and reduce.
+- find and findindex.
+- Conversion exercise.
+- Exercise to obtain average grades.
+- Winning ticket exercise.
+- Transaction analysis exercise.
+- Total sum exercise.
 
-### Unit 6 (In progress...)
-### Unit 7 (In progress...)
-### Unit 8 (In progress...)
+### Unit 6.
+- Concat, spread operation, and join.
+- Every and some. 
+- Include, indexOf, lastIndexOf.
+- Slice.
+- Spread operation in depth.
+- Substring Index Finder Exercise.
+### Unit 7.
+- Two-dimensional arrays.
+- Winning team project.
+### Unit 8.
+- Classes.
+- Inheritance.
+- Object.
+- Social network project.
 ### Requirements for usability:
 - Code editor. Preferably Visual Studio Code.
 - NodeJS installation.
